@@ -1,0 +1,22 @@
+{
+  "detection_rules": [
+    {
+      "rule_id": "1001",
+      "rule_name": "Brute Force Attack Attempt",
+      "trigger_condition": "Failed password",
+      "severity": "High"
+    },
+    {
+      "rule_id": "1002",
+      "rule_name": "SQL Injection Pattern Detected",
+      "trigger_condition": "UNION SELECT",
+      "severity": "Critical"
+    },
+    {
+      "rule_id": "1003",
+      "rule_name": "Unauthorized Administrative Shell Access",
+      "trigger_condition": "sudo su -",
+      "severity": "High"
+    }
+  ]
+}

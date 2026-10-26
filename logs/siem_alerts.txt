@@ -1,0 +1,14 @@
+--- SIEM ALERTS CORRELATION OUTPUT GENERATED ON 2026-10-26 ---
+
+[ALERT #1] -> SEVERITY: High
+RULE MATCHED: Brute Force Attack Attempt (ID: 1001)
+TRIGGER LOG: 2026-10-26 10:02:14 WARN User 'admin' login failed - Reason: Failed password attempt from 203.0.113.5
+-----------------------------------------------------------
+[ALERT #2] -> SEVERITY: Critical
+RULE MATCHED: SQL Injection Pattern Detected (ID: 1002)
+TRIGGER LOG: 2026-10-26 10:04:12 CRIT Web Application input payload detected: UNION SELECT null, username, password FROM users
+-----------------------------------------------------------
+[ALERT #3] -> SEVERITY: High
+RULE MATCHED: Unauthorized Administrative Shell Access (ID: 1003)
+TRIGGER LOG: 2026-10-26 10:05:22 WARN User 'guest' executed unauthorized terminal sequence: sudo su -
+-----------------------------------------------------------

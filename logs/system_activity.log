@@ -1,0 +1,6 @@
+2026-10-26 10:00:01 INFO User 'john' logged in successfully from 192.168.1.50
+2026-10-26 10:02:14 WARN User 'admin' login failed - Reason: Failed password attempt from 203.0.113.5
+2026-10-26 10:03:45 INFO Database query executed: SELECT name FROM products WHERE id = 10
+2026-10-26 10:04:12 CRIT Web Application input payload detected: UNION SELECT null, username, password FROM users
+2026-10-26 10:05:22 WARN User 'guest' executed unauthorized terminal sequence: sudo su -
+2026-10-26 10:06:50 INFO System health heartbeat check status: OK
